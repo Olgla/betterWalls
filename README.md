@@ -1,6 +1,6 @@
-# Better Walls - Company Website
+# Better Walls - Professional Wall Repairs & Painting
 
-A modern, responsive website for TheBestWalls, a women-owned wall repairs and painting company.
+A modern, responsive website for Better Walls, a women-owned wall repairs and painting company.
 
 ## Project Description
 
@@ -11,8 +11,8 @@ Better Walls is a professional wall repair and painting service company. This we
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd thebestwalls-website
+git clone https://github.com/Olgla/betterWalls.git
+cd betterWalls
 ```
 
 2. Install dependencies:

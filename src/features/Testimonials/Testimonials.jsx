@@ -71,7 +71,7 @@ const Testimonials = () => {
       const mockTestimonials = [
         {
           id: 1,
-          text: "TheBestWalls transformed our living room completely. Their attention to detail and professionalism was outstanding.",
+          text: "Better Walls transformed our living room completely. Their attention to detail and professionalism was outstanding.",
           author: "Sarah Johnson",
           rating: 5,
         },

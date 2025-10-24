@@ -446,7 +446,7 @@ const Contacts = () => {
                 <strong>Phone:</strong> (555) 123-4567
               </p>
               <p>
-                <strong>Email:</strong> info@thebestwalls.com
+                <strong>Email:</strong> bestwallsaround@gmail.com
               </p>
               <p>
                 <strong>Service Area:</strong> Local and surrounding areas
