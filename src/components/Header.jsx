@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const HeaderContainer = styled.header`
   position: fixed;
@@ -27,6 +27,12 @@ const Logo = styled.h1`
   font-size: 1.8rem;
   font-weight: bold;
   margin: 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--color-merlot);
+  }
 `;
 
 const NavLinks = styled.ul`
@@ -63,13 +69,24 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleLogoClick = () => {
+    navigate("/");
+    // Scroll to top of page
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <HeaderContainer>
       <NavContainer>
-        <Logo>BW</Logo>
+        <Logo onClick={handleLogoClick}>BW</Logo>
         <NavLinks>
           <NavItem>
             <StyledNavLink to="/">Home</StyledNavLink>
+          </NavItem>
+          <NavItem>
+            <StyledNavLink to="/about">About</StyledNavLink>
           </NavItem>
           <NavItem>
             <StyledNavLink to="/services">Services</StyledNavLink>

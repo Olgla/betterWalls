@@ -40,12 +40,21 @@ h1 {
   font-style: italic;
   font-size: 3.2em;
   line-height: 1.1;
+  color: var(--color-burgundy);
 }
 
 h2,
 h3 {
   font-family: "Playfair Display", serif;
   font-style: italic;
+  color: var(--color-burgundy);
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-burgundy);
 }
 
 #app {
@@ -85,14 +94,29 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, transform 0.25s ease;
 }
 button:hover {
   border-color: var(--color-burgundy);
+  transform: translateY(-1px);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Form elements */
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-burgundy);
+  box-shadow: 0 0 0 2px rgba(107, 15, 26, 0.2);
 }
 
 @media (prefers-color-scheme: light) {

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { scrollToElement } from "../shared/utils";
 
 const HeroSection = styled.section`
   background: linear-gradient(
@@ -25,6 +26,7 @@ const HeroTitle = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
+  color: white;
 
   @media (max-width: 768px) {
     font-size: 2.5rem;
@@ -36,6 +38,7 @@ const HeroSubtitle = styled.h2`
   margin-bottom: 2rem;
   font-weight: 300;
   opacity: 0.9;
+  color: white;
 
   @media (max-width: 768px) {
     font-size: 1.2rem;
@@ -73,10 +76,7 @@ const CTAButton = styled.button`
 
 const Hero = () => {
   const scrollToServices = () => {
-    const element = document.getElementById("services");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    scrollToElement("services");
   };
 
   return (

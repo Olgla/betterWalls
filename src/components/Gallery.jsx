@@ -107,7 +107,7 @@ const PageDot = styled.div`
   height: 12px;
   border-radius: 50%;
   background: ${(props) =>
-    props.active ? "var(--color-burgundy)" : "#bdc3c7"};
+    props.$active ? "var(--color-burgundy)" : "#bdc3c7"};
   transition: background 0.3s ease;
 `;
 
@@ -221,7 +221,10 @@ const Gallery = () => {
 
             <PageIndicator>
               {Array.from({ length: totalPages }, (_, index) => (
-                <PageDot key={`page-${index}`} active={index === currentPage} />
+                <PageDot
+                  key={`page-${index}`}
+                  $active={index === currentPage}
+                />
               ))}
             </PageIndicator>
 
