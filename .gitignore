@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Documentation files (temporary setup guides)
+AIRTABLE_PERMISSIONS_FIX.md
+AIRTABLE_TABLE_SETUP.md
+test-airtable-connection.js
