@@ -105,15 +105,15 @@ const About = () => {
   return (
     <AboutSection id="about">
       <Container>
-        <SectionTitle>the Best Walls</SectionTitle>
+        <SectionTitle>Better Walls</SectionTitle>
         <AboutContent>
           <AboutText>
             <h3>Your Trusted Home Improvement Partner</h3>
             <p>
-              Founded and operated by experienced professionals, Best Walls is a
-              women-owned business dedicated to transforming your living spaces.
-              We understand that your home is your sanctuary, and we treat every
-              project with the care and attention it deserves.
+              Founded and operated by experienced professionals, Better Walls is
+              a women-owned business dedicated to transforming your living
+              spaces. We understand that your home is your sanctuary, and we
+              treat every project with the care and attention it deserves.
             </p>
             <p>
               With years of experience in the industry, we've built a reputation
@@ -138,7 +138,7 @@ const About = () => {
           </AboutImage>
         </AboutContent>
         <HighlightBox>
-          <h4>Why Choose Best Walls?</h4>
+          <h4>Why Choose Better Walls?</h4>
           <ul>
             <li>Women-owned and operated business</li>
             <li>Quality materials and craftsmanship</li>

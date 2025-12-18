@@ -452,7 +452,7 @@ const Contacts = () => {
                 <strong>Service Area:</strong> Pittsbutgh and surrounding areas
               </p>
               <p>
-                <strong>Hours:</strong> Monday - Friday, 8AM - 6PM
+                <strong>Hours:</strong> Monday - Sunday, 9AM - 6PM
               </p>
             </ContactDetails>
           </ContactInfoSection>
