@@ -443,13 +443,13 @@ const Contacts = () => {
             <ContactDetails>
               <h4>Contact Information</h4>
               <p>
-                <strong>Phone:</strong> (555) 123-4567
+                <strong>Phone:</strong> (878) 787-1033
               </p>
               <p>
-                <strong>Email:</strong> bestwallsaround@gmail.com
+                <strong>Email:</strong> betterwalls@gmail.com
               </p>
               <p>
-                <strong>Service Area:</strong> Local and surrounding areas
+                <strong>Service Area:</strong> Pittsbutgh and surrounding areas
               </p>
               <p>
                 <strong>Hours:</strong> Monday - Friday, 8AM - 6PM
